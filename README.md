@@ -5,6 +5,7 @@
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Features](#features)
+* Screenshots(#screenshots)
 
 ## General info
 This project is simple library app to menage books.
@@ -22,3 +23,6 @@ To open and run this project, download this respository to one folder and then o
 * Add/Delete category/book/author from database
 * Edit selected book
 * Browse exist books in database (possibility sort books by category)
+
+# Screenshots
+![Algorithm schema](./images/mainScreen.PNG)
