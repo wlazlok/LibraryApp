@@ -5,7 +5,8 @@
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Features](#features)
-* Screenshots(#screenshots)
+* [Author](#author)
+* [Screenshots](#screenshots)
 
 ## General info
 This project is simple library app to menage books.
@@ -24,7 +25,11 @@ To open and run this project, download this respository to one folder and then o
 * Edit selected book
 * Browse exist books in database (possibility sort books by category)
 
-# Screenshots
+## Author
+* **Karol Wlazło**
+* **email:** kwlazo9@gmail.com
+
+## Screenshots
 ![Main screen](./images/mainScreen.PNG)
 ![Add book screen](./images/addBook.PNG)
 ![List of books screen](./images/booksView.PNG)
