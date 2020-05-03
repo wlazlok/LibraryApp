@@ -25,4 +25,6 @@ To open and run this project, download this respository to one folder and then o
 * Browse exist books in database (possibility sort books by category)
 
 # Screenshots
-![Algorithm schema](./images/mainScreen.PNG)
+![Main screen](./images/mainScreen.PNG)
+![Add book screen](./images/addBook.PNG)
+![List of books screen](./images/booksView.PNG)
