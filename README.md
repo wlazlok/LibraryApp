@@ -26,7 +26,8 @@ To open and run this project, download this respository to one folder and then o
 * Browse exist books in database (possibility sort books by category)
 
 ## Author
-* **Karol Wlazło**
+* **[Karol Wlazło](https://github.com/wlazlok
+)**
 * **email:** kwlazo9@gmail.com
 
 ## Screenshots
