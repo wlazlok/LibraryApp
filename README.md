@@ -18,7 +18,7 @@ Project is created with:
 * H2 Database version: 1.4.200
 
 ## Setup
-To open and run this project, download this respository to one folder and then open folder using e.g. IntelliJ, then run Main class.
+To open and run this project, download this respository to one folder and then open folder using e.g. [IntelliJ](https://www.jetbrains.com/idea/), then run Main class.
 
 ## Features
 * Add/Delete category/book/author from database
