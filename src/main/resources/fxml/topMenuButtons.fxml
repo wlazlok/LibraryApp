@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="libraryApp.Controllers.topMenuButtonsController">
+   <children>
+      <ToggleButton fx:id="addCategoryButton" mnemonicParsing="false" onAction="#addCategory" prefHeight="63.0" prefWidth="143.0" text="%add.category.button">
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/add_category.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <HBox.margin>
+            <Insets />
+         </HBox.margin>
+         <toggleGroup>
+            <ToggleGroup fx:id="topMenuButtonGroup" />
+         </toggleGroup>
+      </ToggleButton>
+      <ToggleButton fx:id="addBookButton" mnemonicParsing="false" onAction="#addBook" prefHeight="63.0" prefWidth="143.0" text="%add.book.button" toggleGroup="$topMenuButtonGroup">
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/add_book.png" />
+               </image>
+            </ImageView>
+         </graphic></ToggleButton>
+      <ToggleButton fx:id="addAuthorButton" mnemonicParsing="false" onAction="#addAuthor" prefHeight="63.0" prefWidth="143.0" text="%add.author.button" toggleGroup="$topMenuButtonGroup">
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/add_author.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </ToggleButton>
+      <ToggleButton fx:id="showBooks" mnemonicParsing="false" onAction="#openLibrary" prefHeight="63.0" prefWidth="143.0" text="%show.library.button" toggleGroup="$topMenuButtonGroup">
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/library_image.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </ToggleButton>
+      <Button fx:id="booksButton" mnemonicParsing="false" onAction="#showAllBooks" prefHeight="63.0" prefWidth="143.0" text="%list.of.books.button">
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/list_of_book_icon.png" />
+               </image></ImageView>
+         </graphic>
+      </Button>
+   </children>
+</HBox>

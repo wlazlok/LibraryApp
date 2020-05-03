@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="598.0" prefWidth="827.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="libraryApp.Controllers.MainController">
+   <top>
+      <VBox prefHeight="108.0" prefWidth="827.0" BorderPane.alignment="CENTER">
+         <children>
+            <MenuBar prefHeight="23.0" prefWidth="827.0">
+              <menus>
+                <Menu mnemonicParsing="false" text="%menu.bar.file">
+                  <items>
+                    <MenuItem mnemonicParsing="false" onAction="#closeApplication" text="%menu.bar.file.close" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="%menu.bar.edit" />
+                <Menu mnemonicParsing="false" text="%menu.bar.help">
+                  <items>
+                    <MenuItem mnemonicParsing="false" onAction="#aboutApp" text="%menu.bar.help.about" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+           <fx:include fx:id="topMenuButtons" source="topMenuButtons.fxml" />
+         </children>
+      </VBox>
+   </top>
+   <center>
+      <Label prefHeight="109.0" prefWidth="329.0" text="%cetner.text" textAlignment="CENTER" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="Modern No. 20" size="21.0" />
+         </font>
+      </Label>
+   </center>
+</BorderPane>
