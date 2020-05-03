@@ -1,1 +1,2 @@
 # LibraryApp
+Author: Karol Wlazło
