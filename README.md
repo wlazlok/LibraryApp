@@ -9,7 +9,7 @@
 * [Screenshots](#screenshots)
 
 ## General info
-This project is simple library app to menage books.
+This project is simple library app to manage books.
 
 ## Technologies
 Project is created with:
@@ -23,7 +23,7 @@ To open and run this project, download this respository to one folder and then o
 ## Features
 * Add/Delete category/book/author from database
 * Edit selected book
-* Browse exist books in database (possibility sort books by category)
+* Browse exist books in database (possibility of sorting books by category)
 
 ## Author
 * **[Karol Wlazło](https://github.com/wlazlok
