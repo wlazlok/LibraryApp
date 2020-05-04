@@ -21,7 +21,7 @@ Project is created with:
 To open and run this project, download this respository to one folder and then open folder using e.g. [IntelliJ](https://www.jetbrains.com/idea/), then run Main class.
 
 ## Features
-* Add/Delete/Edit category/book/author from database
+* Add/Delete category/book/author from database
 * Edit selected book
 * Browse exist books in database (possibility sort books by category)
 
